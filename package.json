@@ -1,6 +1,6 @@
 {
   "name": "simple-custom-errors",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create custom error types and instantinize custom errors",
   "main": "./dist/bundle.js",
   "scripts": {
