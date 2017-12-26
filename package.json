@@ -1,6 +1,6 @@
 {
   "name": "simple-custom-errors",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create custom error types and instantinize custom errors",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -25,19 +25,19 @@
     "url": "https://github.com/eugen35/simple-custom-errors.git"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "webpack": "^3.10.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.3.17",
     "babel-core": "^6.3.17",
     "babel-loader": "^6.2.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
     "docdash": "^0.4.0",
     "mocha": "^4.0.1",
-    "nodemon": "^1.12.1",
-    "webpack": "^1.9.11"
+    "nodemon": "^1.12.1"
   }
 }

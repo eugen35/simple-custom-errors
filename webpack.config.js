@@ -1,11 +1,11 @@
-var path = require('path');
+const path = require('path');
 
 module.exports = {
-  entry: './index.js',
+  entry: path.join(__dirname, 'index.js'),
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    library: "conditional-piping",
+    library: "simple-custom-errors",
     libraryTarget: "umd"
   },
   resolve: {

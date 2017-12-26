@@ -3,7 +3,7 @@
 // См. http://usejsdoc.org/about-configuring-jsdoc.html
 module.exports = {
   source: {
-    include: ["./src", "./constants", "./connectors", "./__tests__/unit"],
+    include: ["./src", "./constants", "./__tests__/unit"],
     excludePattern: ""
   },
   opts: {
